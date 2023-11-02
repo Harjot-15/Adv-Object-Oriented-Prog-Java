@@ -1,0 +1,51 @@
+/* Generic Application Styles */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Styling for Main Application Window */
+.window {
+    -fx-background-color: #F0F0F0;
+}
+
+/* Styling for ChartView */
+.BarChart {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #D0D0D0;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+}
+
+.BarChart .xAxis {
+    -fx-tick-label-fill: #666666;
+}
+
+.BarChart .yAxis {
+    -fx-tick-label-fill: #666666;
+}
+
+/* Styling for TableView */
+.TableView {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #D0D0D0;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+}
+
+.TableColumn {
+    -fx-background-color: #F8F8F8;
+    -fx-border-color: #D0D0D0;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+.table-row-cell {
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 5px 10px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #D0E0FF;
+}
